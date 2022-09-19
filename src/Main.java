@@ -2,6 +2,8 @@
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println(Function.decode("E"));
+
         System.out.println(Function.isValid(new char[]{'n','n','n','s','n','s','n','s','n','s'}));
 
         System.out.println(Function.printerErrors("aaabbbbhaijjjm"));
